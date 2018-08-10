@@ -1,4 +1,4 @@
-const displayContent = require('./display-content');
+//const displayContent = require('./display-content');
 
 window.onload = function() {
 	var watchID = navigator.accelerometer.watchAcceleration(success, fail, {frequency: 1000});
